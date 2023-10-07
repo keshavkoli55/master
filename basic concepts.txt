@@ -1,0 +1,28 @@
+There are four stages in git 
+1 -: untracked
+2 -: stagged 
+3 -: modified
+4 -: unmodified
+we can check the files by using git status (command)
+*if some files is present then ,we will first add these file by using git add (file name) or using . or using -A (command) ,by adding these files moved to stagged area , then we will use git commit -m"(any comment you want to use)" or git commit .
+if we use git commit ,a editor mode will open after this you will press i button and starts inserting the comment
+#TO CLOSE THIS EDITOR WINDOW FIRST ESC -> : -> wq
+$ Touch command use to create file in the folder.
+* git checkout command is used  to match your present file(modified) to previous committed file and restore previous commit.
+#git checkout -f is used for all files present in the folder 
+* git log command will show all the committed statments with time and author 
+TO FILTER GIT LOG
+#git log -p -number (as many as you required)
+#q is used to return in main menu
+$ git diff will compare the working directory file to stagging area (file is same in both cases)
+* git diff (command)
+#TO SKIP STAGGING AREA 
+use git commit -a -m"any comment"
+$git rm (command) is used to delete the file 
+*git rm FileName 
+OR
+*git rm --cached FileName is used to directly remove file from stagging area to untracked file
+
+
+
+ 
